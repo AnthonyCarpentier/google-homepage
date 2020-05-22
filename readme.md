@@ -1,0 +1,1 @@
+This project is to demonstate the skills I have learned so far in HTML and CSS, by creating a mock-up of the google homepage.
