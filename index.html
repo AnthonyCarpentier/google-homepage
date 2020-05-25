@@ -6,21 +6,6 @@
             font-family: arial, sans-serif;
             opacity: 0.75;
         }
-        .top-left {
-            display: flex;
-            width: 25%;
-            margin: 0;
-        }
-        .about-styling {
-            padding-left: 16px;
-            padding-right: 10px;
-            margin-top: 3px;
-        }
-        .store-styling {
-            padding-left: 10px;
-            padding-right: 10px;
-            margin-top: 3px;
-        }
         .google-image {
             margin: auto;
             margin-top: 140px;
@@ -36,29 +21,34 @@
             width: 20px;
             height:auto;
         }
+        .top-navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        .top-navbar-li {
+            float: left;
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            padding: 14px 16px;
+        }
     </style>
     <head>
         <meta charset="UTF-8">
         <title>Google</title>
     </head>
     <body class="basic-style">
-        
-            <div class="top-left">
-                <div class="about-styling">
-                    <p>About</p>
-                </div>
-                <div class="store-styling">
-                    <p>Store</p>
-                </div>
-            </div>
-            <div>
-                <p>Gmail</p>
-                <p>Images</p>
-                <div>
-                <img class="google-apps-button" src="img/googleAppsButton.png" alt="Google apps">
-                </div>
-                <a href="#">Sign in</a>
-            </div>
+                <ul class="top-navbar">
+                    <li class="top-navbar-li"><a href="#about">About</a></li>
+                    <li class="top-navbar-li"><a href="#store">Store</a></li>                   
+                    <li class="top-navbar-li" style="float:right"><a href="#signIn">Sign in</a></li>
+                    <li class="top-navbar-li" style="float:right"><a href="#"><img class="google-apps-button" src="img/googleAppsButton.png" alt="Google apps"></a></li>
+                    <li class="top-navbar-li" style="float:right"><a href="#images">Images</a></li>
+                    <li class="top-navbar-li" style="float:right"><a href="#gmail">Gmail</a></li>
+                </ul>
+
         <div class="google-image">
             <a href="#"><img src="img/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
         </div>
