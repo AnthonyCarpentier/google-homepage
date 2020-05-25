@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
-        .red-text {
-            color: red;
+        .top-left {
+            size: 12pt;
         }
         .google-image {
             margin: auto;
@@ -15,17 +15,32 @@
             padding: 40px 0px 0px 40px;
             box-sizing: border-box;
         }
+        .google-apps-button {
+            width: 20px;
+            height:auto;
+        }
     </style>
     <head>
         <meta charset="UTF-8">
         <title>Google</title>
     </head>
     <body>
-        <h1 class="red-text">Testing</h1>
-        <h2 class="google-image">
+        
+            <div class="top-left">
+                <p>About</p><p>Store</p>
+            </div>
+            <div>
+                <p>Gmail</p>
+                <p>Images</p>
+                <div>
+                <img class="google-apps-button" src="img/googleAppsButton.png" alt="Google apps">
+                </div>
+                <a href="#">Sign in</a>
+            </div>
+        <div class="google-image">
             <a href="#"><img src="img/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
-        </h2>
-        <h3 class="search-bar"><form action="#"><input type="text" placeholder=""></form></h3>
+        </div>
+        <div class="search-bar"><form action="#"><input type="text" placeholder=""></form></div>
     </body>
 
 </html>
