@@ -1,8 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
     <style>
+        .basic-style {
+            font-size: 13px;
+            font-family: arial, sans-serif;
+            opacity: 0.75;
+        }
         .top-left {
-            size: 12pt;
+            display: flex;
+            width: 25%;
+            margin: 0;
+        }
+        .about-styling {
+            padding-left: 16px;
+            padding-right: 10px;
+            margin-top: 3px;
+        }
+        .store-styling {
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-top: 3px;
         }
         .google-image {
             margin: auto;
@@ -24,10 +41,15 @@
         <meta charset="UTF-8">
         <title>Google</title>
     </head>
-    <body>
+    <body class="basic-style">
         
             <div class="top-left">
-                <p>About</p><p>Store</p>
+                <div class="about-styling">
+                    <p>About</p>
+                </div>
+                <div class="store-styling">
+                    <p>Store</p>
+                </div>
             </div>
             <div>
                 <p>Gmail</p>
