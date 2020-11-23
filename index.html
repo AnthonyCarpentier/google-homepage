@@ -1,78 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-    <style>
-        .basic-style {
-            font-size: 13px;
-            font-family: arial, sans-serif;
-            opacity: 0.75;
-        }
-        .google-image {
-            margin: auto;
-            margin-top: 140px;
-            width: 19%;
-        }
-        .search-bar {
-            margin: auto;
-            width: 19%;
-            padding: 40px 0px 0px 40px;
-            box-sizing: border-box;
-        }
-        .google-apps-button {
-            width: 20px;
-            height:auto;
-        }
-        .top-navbar {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-        }
-        li {
-            float: left;
-        }
-        .top-navbar-li {
-            display: block;
-            color: black;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-    </style>
+<html>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" media="all">
         <title>Google</title>
     </head>
-    <body class="basic-style">
-                <ul class="top-navbar">
-                    <li class="top-navbar-li"><a href="#about">About</a></li>
-                    <li class="top-navbar-li"><a href="#store">Store</a></li>                   
-                    <li class="top-navbar-li" style="float:right"><a href="#signIn">Sign in</a></li>
-                    <li class="top-navbar-li" style="float:right"><a href="#"><img class="google-apps-button" src="img/googleAppsButton.png" alt="Google apps"></a></li>
-                    <li class="top-navbar-li" style="float:right"><a href="#images">Images</a></li>
-                    <li class="top-navbar-li" style="float:right"><a href="#gmail">Gmail</a></li>
+    <body>
+                <ul class="top-navbar top-navbar-li">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#store">Store</a></li>                   
+                    <li style="float:right"><a href="#signIn">Sign in</a></li>
+                    <li style="float:right"><a href="#"><img class="google-apps-button" src="img/googleAppsButton.png" alt="Google apps"></a></li>
+                    <li style="float:right"><a href="#images">Images</a></li>
+                    <li style="float:right"><a href="#gmail">Gmail</a></li>
                 </ul>
 
-        <div class="google-image">
-            <a href="#"><img src="img/googlelogo_color_272x92dp.png" alt="Google Logo"></a>
-        </div>
-        <div class="search-bar"><form action="#"><input type="text" placeholder=""></form></div>
-        <div>    
-            <button>Google Search</button>
-            <button>I'm Feeling Lucky</button> 
-        </div>
-        <div>
-            <div>
-                <p>Advertising</p>
-                <p>Business</p>
-                <p>How Search works</p>
-            </div>
-            <div>
-                <p>Privacy</p>
-                <p>Terms</p>
-                <p>Settings</p>
-            </div>
-        </div>
+
+            <img src="img/googlelogo_color_272x92dp.png" alt="Google Logo" class="google-image">
+
+        <div class="top-navbar"><form action="#"><input type="text" placeholder=""></form></div>   
+            <ul class="top-navbar">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button> 
+            </ul>
+                <ul class="bot-navbar">
+                    <li><a href="#Advertising">Advertising</a></li>
+                    <li><a href="#Business">Business</a></li>
+                    <li><a href="#HowSearchworks">How Search works</a></li>
+                    <li style="float:right"><a href="#Settings">Settings</a></li>
+                    <li style="float:right"><a href="#Terms">Terms</a></li>
+                    <li style="float:right"><a href="#Privacy">Privacy</a></li>
+                </ul>
     </body>
 
 </html>

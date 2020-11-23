@@ -1,0 +1,80 @@
+.basic-style {
+    list-style-type: none;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    opacity: 0.75;
+    appearance: none;
+}
+.search-bar {
+    margin: auto;
+    width: 19%;
+    padding: 40px 0px 0px 40px;
+    box-sizing: border-box;
+}
+.google-apps-button {
+    width: 20px;
+    height:auto;
+}
+.top-navbar {
+    list-style-type: none;
+    font-family: arial, sans-serif;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    appearance: none;
+}
+li {
+    float: left;
+    font-family: arial, sans-serif;
+    padding: 0px 8px;
+    text-decoration: none;
+    appearance: none;
+}
+.top-navbar-li {
+    font-size: 11px;
+    font-family: arial, sans-serif;
+    opacity: 0.75;    
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    appearance: none;
+}
+a:-webkit-any-link {
+    color: #000000;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.google-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px !important;
+    height: 92px;
+    width: 272px;
+}
+.bot-navbar {
+    list-style-type: none;
+    font-size: 13px;
+    font-family: arial, sans-serif;
+    opacity: 0.75;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 14px 16px;
+    overflow: hidden;
+    text-decoration: none;
+    appearance: none;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+}
