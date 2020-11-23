@@ -17,6 +17,7 @@
 }
 .top-navbar {
     list-style-type: none;
+    font-size: 15px;
     font-family: arial, sans-serif;
     display: block;
     text-align: center;
@@ -34,7 +35,7 @@ li {
     appearance: none;
 }
 .top-navbar-li {
-    font-size: 11px;
+    font-size: 15px;
     font-family: arial, sans-serif;
     opacity: 0.75;    
     color: #000000;
@@ -52,18 +53,19 @@ a:-webkit-any-link {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    font-size: 15px;
 }
 .google-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 10px !important;
+    padding-top: 109px !important;
     height: 92px;
     width: 272px;
 }
 .bot-navbar {
     list-style-type: none;
-    font-size: 13px;
+    font-size: 15px;
     font-family: arial, sans-serif;
     opacity: 0.75;
     display: block;
